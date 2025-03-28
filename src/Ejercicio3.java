@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class DigitosNumeros {
+public class Ejercicio3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese el numero positivo de uno o dos digitos :");

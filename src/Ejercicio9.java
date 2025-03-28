@@ -8,7 +8,7 @@ Si el promedio es <4 mostrar "Reprobado".
 
 import java.util.Scanner;
 
-public class PromedioEstudiante {
+public class Ejercicio9 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese la primera nota del estudiante: ");
