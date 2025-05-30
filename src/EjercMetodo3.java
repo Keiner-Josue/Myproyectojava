@@ -1,17 +1,12 @@
-class Persona {
-    String nombre;
-}
-
 public class EjercMetodo3 {
     public static void main(String[] args) {
         Persona persona = new Persona();
         persona.nombre = "Ana";
-        reasignarPersona(persona);
-        System.out.println("Nombre después de reasignarPersona: " + persona.nombre);  // Debería imprimir Ana
+        modificarPersona(persona);
+        System.out.println("Nombre después de modificarPersona: " + persona.nombre);
     }
 
-    public static void reasignarPersona(Persona persona) {
-        persona = new Persona();  // Creamos un nuevo objeto
-        persona.nombre = "María";
+    public static void modificarPersona(Persona persona) {
+        persona.nombre = "María";  
     }
 }
